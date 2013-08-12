@@ -1,0 +1,35 @@
+#feedContainer{
+	border-width: 3px;
+	border-style: dashed;
+	border-color: green;
+	margin-left: 10px;
+	background-color: #eee;
+	width: 400px;
+	height: 600px;
+	overflow: scroll;
+	font-size:0.8em;
+}
+#feedContainer div{
+	margin-left:10px;
+}
+#feedContainer h2{
+	text-decoration: underline;
+	margin-left:10px;
+	/*position:fixed;*/
+	background-color: #fff;
+}
+#feedContainer li{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#feedContainer blockquote{
+	margin: 0 0;
+}
+#feedContainer div>a>img{
+	float:left
+}
+#feedContainer li span img{
+	display:none;
+}
